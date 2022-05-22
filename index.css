@@ -1,0 +1,123 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+background-image: url("fundo.png");
+background-size: cover;
+}
+
+main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+#centro{
+width: 1200px;
+height: 1600px;
+background-color: white;
+border: 30px solid white;
+box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.664);;
+
+}
+
+header{
+width: auto;
+height: 800px;
+}
+
+.conteudo{
+width: auto;
+height: 690px;
+display: flex;
+}
+
+.c1{width: 600px;height: 690px;}
+.c2{width: 600px;height: 690px; background-color: white;
+    background-image: url("cigana.png");
+    background-size: cover;
+}
+button{width: 1140px; height: 100px; margin-top: 5px;
+border-radius: 30px;  background-image: url("fundo1.png");
+border: 1px solid rgba(255, 192, 203, 0.603);
+color: blueviolet; 
+word-spacing: 15px;
+;
+}
+
+
+
+
+.cigana{
+    position: absolute;
+margin-bottom: 500px;
+}
+
+.titulo{
+margin-left: 30px;
+margin-top: 20px;
+}
+
+.p1{
+font-size: 26px;
+font-family: cursive;
+color: rgba(137, 43, 226, 0.699); 
+}
+
+p{
+margin-left: 20px;
+}
+
+.logo{
+margin-top: 25px;
+width: auto;
+height: 300px;
+background-color: #f3e5fdc9;
+}
+
+.box{
+display: flex;
+}
+
+.lista{
+width: 800px;
+height: 300px;
+margin-left: 15px;
+margin-top: 10px;
+
+}
+
+.comentarios{
+    width: 600px;
+    height: 300px;
+}
+
+li {
+margin-bottom: 20px;
+}
+
+li::marker{
+color: rgba(206, 18, 212, 0.733);
+}
+
+.d1{
+margin-left: 50px;
+}
+
+.comment{
+display: grid;
+margin-left: 40px;
+margin-top: 30px;
+}
+
+.b1{
+width: 400px;
+height: 300px;
+}
+
+.b2{
+    width: 400px;
+    height: 300px;
+   
+    }
